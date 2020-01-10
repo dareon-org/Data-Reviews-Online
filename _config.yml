@@ -2,5 +2,5 @@ title: Data Reviews Online
 description: A web application for managing submissions to data repositories.
 show_downloads: true
 google_analytics: 
-theme: jekyll-theme-minimal
+theme: jekyll-theme-slate
 logo: assets/images/dareon.jpg
