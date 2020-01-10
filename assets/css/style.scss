@@ -3,13 +3,9 @@
 
 @import "{{ site.theme }}";
 
-.inner {
-	background: white;
+.inner { background: white; }
+
+h1.inner, h2.inner { 
+	color: 			rgb(34,102,34);
+	font-family:	"museo-500" ;
 }
-
-
-h1.inner h2.inner {
-	color: rgb(34,102,34);	
-}
-
-
