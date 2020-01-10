@@ -3,7 +3,13 @@
 
 @import "{{ site.theme }}";
 
-.outer.style {
-	color: rgb(34,102,34);
+.inner {
 	background: white;
-	}
+}
+
+
+h1.inner h2.inner {
+	color: rgb(34,102,34);	
+}
+
+
