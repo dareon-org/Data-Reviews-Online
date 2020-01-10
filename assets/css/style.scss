@@ -3,9 +3,24 @@
 
 @import "{{ site.theme }}";
 
+@font-face {
+	font-family: "Museo 300";
+    src: url("/fonts/Museo-300.otf") format("opentype");
+}
+
+@font-face {
+	font-family: "Museo 500";
+    src: url("/fonts/Museo-500.otf") format("opentype");
+}
+
+@font-face {
+	font-family: "Museo 700";
+    src: url("/fonts/Museo-700.otf") format("opentype");
+}
+
 .inner { background: white; }
 
 h1.inner, h2.inner { 
 	color: 			rgb(34,102,34);
-	font-family:	"museo-500" ;
+	font-family: "Museo 500";
 }
