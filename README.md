@@ -22,8 +22,9 @@ or register as a reviewer, depending on your role.
 
 
 Test Users
-Username | Password
---- | ---
-admin@dareon.org | admin
-repoowner@rmit.edu.au | repoowner
-dataowner@rmit.edu.au | dataowner
+
+Username | Password 
+--- | --- 
+admin@dareon.org | admin 
+repoowner@rmit.edu.au | repoowner 
+dataowner@rmit.edu.au | dataowner 
