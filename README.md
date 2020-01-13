@@ -18,10 +18,12 @@ updated your profile.
 Then you will be able to: manage your repositories, submit proposals, 
 or register as a reviewer, depending on your role.
 
-###[Dareon Demo](http://demo.dareon.org)
+## [Dareon Demo](http://demo.dareon.org)
 
-Login ids:
-- System Administrator: 
-  - Email: admin@dareon.org
-  - Password: admin
-- ...
+
+Test Users
+Username | Password
+--- | ---
+admin@dareon.org | admin
+repoowner@rmit.edu.au | repoowner
+dataowner@rmit.edu.au | dataowner
