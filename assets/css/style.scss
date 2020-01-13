@@ -18,16 +18,17 @@
     src: url("../assets/fonts/Museo-700.otf") format("opentype");
 }
 
-#project_logo {
-	width: 10%;
-	height: 10%;
+#project_logo.style {
+	width: 5%;
+	height: 5%;
+	-webkit-box-shadow: none;
 }
 
-#header_wrap { 
+#header_wrap.style { 
 	background: white;
 }
 
-#project_title {
+#project_title.style {
 	color: rgb(34,102,34);
 	font-family: "Museo 500";
 }
