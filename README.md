@@ -20,9 +20,9 @@ Then you will be able to (depending on your role):
 - submit proposals 
 - register as a reviewer
 
-*Demo site*: [Dareon Demo](http://demo.dareon.org)
+**Demo site**: [Dareon Demo](http://demo.dareon.org)
 
-Test Username | Password 
+Test User | *** 
 --- | --- 
 admin@dareon.org | admin 
 repoowner@rmit.edu.au | repoowner 
