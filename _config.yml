@@ -1,6 +1,6 @@
 title: Dareon
 description: A web application for managing submissions to data repositories.
-show_downloads: true
+show_downloads: false
 theme: jekyll-theme-slate
 logo: assets/images/dareon.jpg
 google_analytics: 
