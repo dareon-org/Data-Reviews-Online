@@ -1,7 +1,7 @@
  ---
  ---
 
-$header-bg-color: white;
+$header-bg-color: #ffffff;
 
 @import "{{ site.theme }}";
 
@@ -26,11 +26,11 @@ $header-bg-color: white;
 	-webkit-box-shadow: none;
 }
 
-#header_wrap.style { 
+#header_wrap { 
 	background: white;
 }
 
-#project_title.style {
+#project_title {
 	color: rgb(34,102,34);
 	font-family: "Museo 500";
 }
