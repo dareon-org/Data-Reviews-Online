@@ -13,10 +13,12 @@ Reviewers with appropriate Proposals.
 Dareon is designed to help Repository Owners, Dataset Owners, and 
 Proposal Reviewers.
 
-To get started, log in via the Australian Access Federation and 
-updated your profile. 
-Then you will be able to: manage your repositories, submit proposals, 
-or register as a reviewer, depending on your role.
+To get started, log into the demos site with one of the test users.
+
+Then you will be able to (depending on your role): 
+- manage your repositories 
+- submit proposals 
+- register as a reviewer
 
 *Demo site*: [Dareon Demo](http://demo.dareon.org)
 
