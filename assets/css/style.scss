@@ -3,26 +3,26 @@
 
 @import "{{ site.theme }}";
 
-
-.inner { background: white; }
-
-#project_title, #project_tagline { 
-	color: 	rgb(34,102,34);
-	font-family: "Museo 500";
-}
-
 @font-face {
 	font-family: "Museo 300";
-    src: url("/../assets/fonts/Museo-300.otf") format("opentype");
+    src: url("../assets/fonts/Museo-300.otf") format("opentype");
 }
 
 @font-face {
 	font-family: "Museo 500";
-    src: url("/../assets/fonts/Museo-500.otf") format("opentype");
+    src: url("../assets/fonts/Museo-500.otf") format("opentype");
 }
 
 @font-face {
 	font-family: "Museo 700";
-    src: url("/../assets/fonts/Museo-700.otf") format("opentype");
+    src: url("../assets/fonts/Museo-700.otf") format("opentype");
 }
 
+#header_wrap { 
+	background: white;
+}
+
+h1#project_title {
+	color: rgb(34,102,34);
+	font-family: "Museo 500";
+}
