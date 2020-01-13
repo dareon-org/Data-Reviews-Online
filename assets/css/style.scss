@@ -1,7 +1,7 @@
  ---
  ---
 
-@import "{{ site.theme }}";
+//@import "{{ site.theme }}";
 
 @font-face {
 	font-family: "Museo 300";
@@ -22,7 +22,7 @@
 	background: white;
 }
 
-h1#project_title {
+#project_title {
 	color: rgb(34,102,34);
 	font-family: "Museo 500";
 }
