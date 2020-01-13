@@ -18,12 +18,9 @@ updated your profile.
 Then you will be able to: manage your repositories, submit proposals, 
 or register as a reviewer, depending on your role.
 
-## [Dareon Demo](http://demo.dareon.org)
+*Demo site*: [Dareon Demo](http://demo.dareon.org)
 
-
-Test Users
-
-Username | Password 
+Test Username | Password 
 --- | --- 
 admin@dareon.org | admin 
 repoowner@rmit.edu.au | repoowner 
