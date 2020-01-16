@@ -12,25 +12,18 @@ process of submission and review of proposals for the inclusion of
 datasets into a data repository. It helps with the management of 
 Calls for Proposals and the associated proposal review process. 
 
+Dareon is designed to help Repository Owners, Dataset Owners, and 
+Proposal Reviewers.
+
 In addition, Dareon includes classification schemes to help match 
 Reviewers with appropriate Proposals.
 
 ## Getting Started
 
-Dareon is designed to help Repository Owners, Dataset Owners, and 
-Proposal Reviewers.
 
-To get started, log into the demos site with one of the test users.
+To get started:
 
-Then you will be able to (depending on your role): 
-- manage your repositories 
-- submit proposals 
-- register as a reviewer
+- read the overview or the application: [about](/about)
+- log into the demos site: [demo](/demo)
+- dig deeper into the code repositories: [GitHub](https://github.com/dareon-org)
 
-**Demo site**: [Dareon Demo](http://demo.dareon.org)
-
-Test User | *** 
---- | --- 
-admin@dareon.org | admin 
-repoowner@rmit.edu.au | repoowner 
-dataowner@rmit.edu.au | dataowner 
