@@ -1,11 +1,7 @@
 ---
-
 layout: default
-title: Demo
-permalink: /demo/
+title: Demo Site
 ---
-
-## Demo Site
 
 ### [demo.dareon.org](http://demo.dareon.org)
 
