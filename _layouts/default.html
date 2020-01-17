@@ -6,14 +6,15 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width,maximum-scale=2">
 
-<meta property="test:githuburl" content="{{ site.github.url }}">
 <meta property="test:url" content="{{ site.url }}">
 <meta property="test:baseurl" content="{{ site.baseurl }}">
-<meta property="test:baseurl" content="{{ site.relative_url }}">
+<meta property="test:githuburl" content="{{ site.github.url }}">
+<meta property="test:relative_url" content="{{ site.relative_url }}">
 
-<link rel="stylesheet" type="text/css" media="screen" href="{{ site.github.url }}/assets/css/dareon.css">
-<link rel="icon" href="{{ site.github.url }}/assets/images/favicon.ico" type="image/x-icon" />
-<link rel="shortcut icon" href="{{ site.github.url }}/assets/images/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" type="text/css" media="screen" href="{{ site.baseurl }}/assets/css/style.css">
+<link rel="stylesheet" type="text/css" media="screen" href="{{ site.baseurl }}/assets/css/dareon.css">
+<link rel="icon" href="{{ site.baseurl }}/assets/images/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="{{ site.baseurl }}/assets/images/favicon.ico" type="image/x-icon" />
 
 {% seo %}
 </head>
@@ -29,7 +30,7 @@
 			{% endif %}
 
 			<h1 id="project_title">
-				<img id="project_logo" src="{{ site.github.url }}/assets/images/{{ site.logo }}" /> 
+				<img id="project_logo" src="{{ site.baseurl }}/assets/images/{{ site.logo }}" /> 
 				{{ site.title | default: site.github.repository_name }}
 			</h1>
 			<h2 id="project_tagline">{{ site.description | default:
@@ -44,11 +45,11 @@
 			</section>
 			{% endif %}
 
-			<!-- pages -->
+			<!-- menu bar -->
 			<div id="site_page_bar">
 				<!--  								-->
 				{% for item in site.tabs %}
-					<a class="site_page" href="{{ site.github.url }}/{{ item.title }}">{{ item.title }}</a>
+					<a class="site_page" href="{{ site.baseurl }}/{{ item.title }}">{{ item.title }}</a>
 				{% endfor %}
 
 			</div>

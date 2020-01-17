@@ -21,7 +21,7 @@ Reviewers with appropriate Proposals.
 
 To get started:
 
-- read the overview or the application: [about](/about)
-- log into the demos site: [demo](/demo)
+- read the overview or the application: [about]({{ site.baseurl }}/about)
+- log into the demos site: [demo]({{ site.baseurl }}/demo)
 - dig deeper into the code repositories: [GitHub](https://github.com/dareon-org)
 
