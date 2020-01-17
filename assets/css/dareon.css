@@ -1,6 +1,6 @@
 ---
 ---
-@import "{{ site.relative_url }}/assets/css/style.css";
+@import "{{ site.site.github.url }}/assets/css/style.css";
 
 @font-face {
 	font-family: "Museo 300";

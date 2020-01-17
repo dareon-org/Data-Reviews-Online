@@ -9,10 +9,11 @@
 <meta property="test:githuburl" content="{{ site.github.url }}">
 <meta property="test:url" content="{{ site.url }}">
 <meta property="test:baseurl" content="{{ site.baseurl }}">
+<meta property="test:baseurl" content="{{ site.relative_url }}">
 
-<link rel="stylesheet" type="text/css" media="screen" href="{{ site.relative_url }}/assets/css/dareon.css">
-<link rel="icon" href="{{ site.relative_url }}/assets/images/favicon.ico" type="image/x-icon" />
-<link rel="shortcut icon" href="{{ site.relative_url }}/assets/images/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" type="text/css" media="screen" href="{{ site.github.url }}/assets/css/dareon.css">
+<link rel="icon" href="{{ site.github.url }}/assets/images/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="{{ site.github.url }}/assets/images/favicon.ico" type="image/x-icon" />
 
 {% seo %}
 </head>
@@ -28,7 +29,7 @@
 			{% endif %}
 
 			<h1 id="project_title">
-				<img id="project_logo" src="{{ site.relative_url }}/assets/images/{{ site.logo }}" /> 
+				<img id="project_logo" src="{{ site.github.url }}/assets/images/{{ site.logo }}" /> 
 				{{ site.title | default: site.github.repository_name }}
 			</h1>
 			<h2 id="project_tagline">{{ site.description | default:
@@ -47,7 +48,7 @@
 			<div id="site_page_bar">
 				<!--  								-->
 				{% for item in site.tabs %}
-					<a class="site_page" href="{{ site.baseurl }}/{{ item.title }}">{{ item.title }}</a>
+					<a class="site_page" href="{{ site.github.url }}/{{ item.title }}">{{ item.title }}</a>
 				{% endfor %}
 
 			</div>
