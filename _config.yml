@@ -17,7 +17,7 @@ title: Dareon
 email: admin@dareon.com
 description: >- # this means to ignore newlines until "baseurl:"
   A web application for managing submissions to data repositories.
-baseurl: "/Data-Reviews-Online" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: DareonOrg
 github_username:  dareon-org
@@ -41,7 +41,7 @@ plugins:
 #   - vendor/ruby/
 
 show_downloads: false
-logo: assets/images/dareon_alt.png
+logo: dareon_alt.png
 
 tabs: 
   - title: home

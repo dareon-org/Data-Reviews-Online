@@ -1,20 +1,20 @@
 ---
 ---
-@import "/assets/css/style.css";
+@import "{{ site.relative_url }}/assets/css/style.css";
 
 @font-face {
 	font-family: "Museo 300";
-	src: url("/assets/fonts/Museo-300.otf") format("opentype");
+	src: url("{{ site.relative_url }}/assets/fonts/Museo-300.otf") format("opentype");
 }
 
 @font-face {
 	font-family: "Museo 500";
-	src: url("/assets/fonts/Museo-500.otf") format("opentype");
+	src: url("{{ site.relative_url }}/assets/fonts/Museo-500.otf") format("opentype");
 }
 
 @font-face {
 	font-family: "Museo 700";
-	src: url("/assets/fonts/Museo-700.otf") format("opentype");
+	src: url("{{ site.relative_url }}/assets/fonts/Museo-700.otf") format("opentype");
 }
 
 #header_wrap {
@@ -23,7 +23,7 @@
 }
 
 #forkme_banner {
-	background: url("/assets/images/blacktocat.png") black no-repeat 95% 50%;
+	background: url("{{ site.relative_url }}/assets/images/blacktocat.png") black no-repeat 95% 50%;
 }
 
 #footer_wrap {
