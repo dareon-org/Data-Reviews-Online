@@ -2,6 +2,10 @@
 
 layout: default
 title: What is Data Reviews Online?
+permalink: /home
+redirect_from: 
+  - /
+  - /index
 
 ---
 

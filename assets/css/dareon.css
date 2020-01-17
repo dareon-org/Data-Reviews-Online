@@ -81,8 +81,8 @@
 	text-decoration: none;
 }
 
-.main_content {
-	min-height: 6em;
+#main_content {
+	min-height: 36em;
 }
 
 h1 {
