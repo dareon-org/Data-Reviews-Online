@@ -46,7 +46,7 @@ plugins:
   - jekyll-redirect-from
 
 show_downloads: false
-show_forkme: false
+show_forkme: true
 
 tabs: 
   - title: home

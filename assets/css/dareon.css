@@ -32,15 +32,15 @@ body, #header_wrap, #footer_wrap {
 
 a {
 	color: #63214B;
-	text-decoration: none;
 	padding: 6px;
-	border-radius: 3px;
 	font-weight: bold;
+	border-radius: 3px;
+	text-decoration: none;
 }
 
 a:hover, a:focus {
-	background: #C39871;
 	color: white;
+	background: #C39871;
 	text-decoration: none;
 }
 
@@ -53,47 +53,31 @@ footer a {
 	text-decoration: none;
 }
 
-#published {
-	float: right;
-}
-
 #forkme_banner {
-	background: url("../images/blacktocat.png") black
-		no-repeat 95% 50%;
+	background: url("../images/blacktocat.png") black no-repeat 95% 50%;
 }
 
 #project_title h1 {
 	color: white;
-	font-size: 36px;
+	font-size: 42px;
 	font-family: "Museo 500";
-	margin-bottom: 6px;	
 }
 
 h3#project_tagline {
 	font-size: 22px;
-	display: block-inline;
 	margin-bottom: 24px;
-}
-
-@media all and (max-width: 475px ) {
-    h1.deskContent { display: none; }
-	h3.deskContent { display: none; }
-    h1.phoneContent { display: block-inline; }
-}
-
-@media all and (min-width: 476px ) {
-    h1.deskContent { display: block-inline; }
-    h3.deskContent { display: block-inline; }
-    h1.phoneContent { display: none; }
+	display: block-inline;
 }
 
 #project_logo {
-	height: 1em;
-	width: 1em;
-	border: none;
-	-webkit-box-shadow: none;
+	height: 48px;
+	width: 48px;
+	border: 0;
+	margin: 0;
 	float: left;
-	padding-right: 0.5em;
+	margin: 10px 0px;
+	padding-right: 12px;
+	-webkit-box-shadow: none;
 }
 
 #header_wrap .inner {
@@ -111,7 +95,8 @@ h3#project_tagline {
 .site_page {
 	color: white;
 	width: 1em;
-	background: #226622; border-top : white solid 1px;
+	background: #226622; 
+	border-top : white solid 1px;
 	border-right: white solid 1px;
 	border-left: 0px;
 	border-bottom: 0px;
@@ -135,5 +120,24 @@ h3#project_tagline {
 h1 { font-family: "Museo 700"; }
 
 h2 { font-family: "Museo 500"; }
+
+#header_wrap .inner {
+	padding-top: 10px;
+}
+
+
+@media all and (max-width: 475px ) {
+    h1.deskContent { display: none; }
+	h3.deskContent { display: none; }
+    h1.phoneContent { display: block-inline; }
+    #published { float: left; }
+}
+
+@media all and (min-width: 476px ) {
+    h1.deskContent { display: block-inline; }
+    h3.deskContent { display: block-inline; }
+    h1.phoneContent { display: none; }
+    #published { float: right; }
+}
 
 /*** end of file dareon.css ***/
