@@ -1,3 +1,4 @@
+/*** dareon.css ***/
 
 @font-face {
 	font-family: "Museo 300";
@@ -24,8 +25,9 @@
    Dark:   #63214B   - purple
    Light:  #C39871   - brown
 ******/
+
 body, #header_wrap, #footer_wrap {
-	background-image: linear-gradient(to right, black, #226622 25%);
+	background: #226622;
 }
 
 a {
@@ -42,9 +44,17 @@ a:hover, a:focus {
 	text-decoration: none;
 }
 
+footer span {
+	color: white;
+}
+
 footer a {
-	color: #63214B;
+	color: #C39871;
 	text-decoration: none;
+}
+
+#published {
+	float: right;
 }
 
 #forkme_banner {
@@ -52,12 +62,29 @@ footer a {
 		no-repeat 95% 50%;
 }
 
-#project_title {
-	font-size: 64px;
+#project_title h1 {
+	color: white;
+	font-size: 36px;
+	font-family: "Museo 500";
+	margin-bottom: 6px;	
 }
 
-#project_tagline {
-	font-size: 36px;
+h3#project_tagline {
+	font-size: 22px;
+	display: block-inline;
+	margin-bottom: 24px;
+}
+
+@media all and (max-width: 475px ) {
+    h1.deskContent { display: none; }
+	h3.deskContent { display: none; }
+    h1.phoneContent { display: block-inline; }
+}
+
+@media all and (min-width: 476px ) {
+    h1.deskContent { display: block-inline; }
+    h3.deskContent { display: block-inline; }
+    h1.phoneContent { display: none; }
 }
 
 #project_logo {
@@ -103,16 +130,10 @@ footer a {
 	color: black;
 }
 
-#main_content {
-	min-height: 36em;
-}
+#main_content { min-height: 36em; }
 
-h1 {
-	font-family: "Museo 700";
-}
+h1 { font-family: "Museo 700"; }
 
-h2 {
-	font-family: "Museo 500";
-}
+h2 { font-family: "Museo 500"; }
 
 /*** end of file dareon.css ***/
