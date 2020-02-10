@@ -3,15 +3,18 @@ layout: default
 title: Demo Site
 ---
 
-### [demo.dareon.org](http://demo.dareon.org)
+### <a target="_blank" href="http://demo.dareon.org">demo.dareon.org</a>
 
-Login with the users below.
+> Link opens in new tab.
+>
+> Login with the users below.
+
 Then you will be able to (depending on your role): 
 - manage your repositories 
 - submit proposals 
 - register as a reviewer
 
-Test User | ' ' 
+Test User |  
 --- | --- 
 admin@dareon.org | admin 
 repoowner@rmit.edu.au | repoowner 
